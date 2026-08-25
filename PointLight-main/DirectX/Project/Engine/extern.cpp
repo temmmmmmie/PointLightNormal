@@ -1,0 +1,74 @@
+#include "pch.h"
+
+// Extern 선언 변수 실제 구현
+tTransform g_Trans = {};
+tGlobalData g_Global = {};
+
+const char* ASSET_TYPE_STR[(UINT)ASSET_TYPE::END] =
+{
+	"MESH",
+	"MESHDATA",
+	"MATERIAL",
+	"TEXTURE",
+	"SOUND",
+	"SPRITE",
+	"FLIPBOOK",
+	"PREFAB",
+	"LEVEL",
+	"GRAPHICSHADER",
+	"COMPUTESHADER",
+};
+const wchar_t* ASSET_TYPE_WSTR[(UINT)ASSET_TYPE::END] =
+{
+	L"MESH",
+	L"MESHDATA",
+	L"MATERIAL",
+	L"TEXTURE",
+	L"SOUND",
+	L"SPRITE",
+	L"FLIPBOOK",
+	L"PREFAB",
+	L"LEVEL",
+	L"GRAPHICSHADER",
+	L"COMPUTESHADER",
+};
+
+const char* COMPONENT_TYPE_STR[(UINT)COMPONENT_TYPE::END] =
+{
+	"CAMERA",
+	"LIGHT2D",
+	"LIGHT3D",
+	"MESHRENDER",
+	"SPRITE_RENDER",
+	"FLIPBOOK_RENDER",
+	"TILE_RENDER",
+	"PARTICLE_RENDER",
+	"SKYBOX",
+	"DECAL",
+	"LANDSCAPE",
+	"TRANSFORM",
+	"COLLIDER2D",
+	"COLLIDER3D",
+};
+const wchar_t* COMPONENT_TYPE_WSTR[(UINT)COMPONENT_TYPE::END] =
+{
+	L"CAMERA",
+	L"LIGHT2D",
+	L"LIGHT3D",
+	L"MESHRENDER",
+	L"SPRITE_RENDER",
+	L"FLIPBOOK_RENDER",
+	L"TILE_RENDER",
+	L"PARTICLE_RENDER",
+	L"SKYBOX",
+	L"DECAL",
+	L"LANDSCAPE",
+	L"TRANSFORM",
+	L"COLLIDER2D",
+	L"COLLIDER3D",
+};
+
+
+const Vec3 Vector3::Right	= Vec3(1.f, 0.f, 0.f);
+const Vec3 Vector3::Up		= Vec3(0.f, 1.f, 0.f);
+const Vec3 Vector3::Front	= Vec3(0.f, 0.f, 1.f);

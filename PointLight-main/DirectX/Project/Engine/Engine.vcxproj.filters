@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>EngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>EngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>03. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>EngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptr.h">
+      <Filter>EngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>04. Manager\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>04. Manager\01. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>04. Manager\02. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AMesh.h">
+      <Filter>08. Asset\1. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AGraphicShader.h">
+      <Filter>08. Asset\4. GraphicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstBuffer.h">
+      <Filter>03. Device\ConstBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetMgr.h">
+      <Filter>04. Manager\04. AssetMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>06. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>07. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h">
+      <Filter>07. Component\01. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="components.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshRender.h">
+      <Filter>07. Component\RenderComponent\01. MeshRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>05. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>05. Level\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderComponent.h">
+      <Filter>07. Component\RenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>07. Component\02. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CScript.h">
+      <Filter>07. Component\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMgr.h">
+      <Filter>04. Manager\05. LevelMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ATexture.h">
+      <Filter>08. Asset\6. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="AMaterial.h">
+      <Filter>08. Asset\3. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ASprite.h">
+      <Filter>08. Asset\9. Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="assets.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteRender.h">
+      <Filter>07. Component\RenderComponent\02. SpriteRender</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>04. Manager\07. RenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskMgr.h">
+      <Filter>04. Manager\08. TaskMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider2D.h">
+      <Filter>07. Component\03. Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>04. Manager\06. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AFlipbook.h">
+      <Filter>08. Asset\10. Flipbook</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlipbookRender.h">
+      <Filter>07. Component\RenderComponent\03. FlipbookRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileRender.h">
+      <Filter>07. Component\RenderComponent\04. TileRender</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuredBuffer.h">
+      <Filter>03. Device\StructuredBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="AComputeShader.h">
+      <Filter>08. Asset\5. ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleRender.h">
+      <Filter>07. Component\RenderComponent\05. ParticleRender</Filter>
+    </ClInclude>
+    <ClInclude Include="ASetColorCS.h">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\SetColor</Filter>
+    </ClInclude>
+    <ClInclude Include="AParticleTickCS.h">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight2D.h">
+      <Filter>07. Component\04. Light2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ASound.h">
+      <Filter>08. Asset\8. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="APrefab.h">
+      <Filter>08. Asset\7. Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="FontMgr.h">
+      <Filter>04. Manager\09. FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight3D.h">
+      <Filter>07. Component\05. Light3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkyBox.h">
+      <Filter>07. Component\RenderComponent\06. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>07. Component\02. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MRT.h">
+      <Filter>04. Manager\07. RenderMgr\MRT</Filter>
+    </ClInclude>
+    <ClInclude Include="CDecal.h">
+      <Filter>07. Component\RenderComponent\07. Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="CLandScape.h">
+      <Filter>07. Component\RenderComponent\08. LandScape</Filter>
+    </ClInclude>
+    <ClInclude Include="ARayCastCS.h">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\RayCast</Filter>
+    </ClInclude>
+    <ClInclude Include="AHeightMapCS.h">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\HeightMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AMeshData.h">
+      <Filter>08. Asset\2. MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>04. Manager\04. AssetMgr\FBXLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator3D.h">
+      <Filter>07. Component\06. Animator3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ABoneMatrixCS.h">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Animation3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>EngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>03. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>EngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>04. Manager\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>04. Manager\01. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>04. Manager\02. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="AMesh.cpp">
+      <Filter>08. Asset\1. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AGraphicShader.cpp">
+      <Filter>08. Asset\4. GraphicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstBuffer.cpp">
+      <Filter>03. Device\ConstBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetMgr.cpp">
+      <Filter>04. Manager\04. AssetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>06. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>07. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp">
+      <Filter>07. Component\01. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshRender.cpp">
+      <Filter>07. Component\RenderComponent\01. MeshRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>05. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>05. Level\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderComponent.cpp">
+      <Filter>07. Component\RenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>07. Component\02. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="extern.cpp">
+      <Filter>01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CScript.cpp">
+      <Filter>07. Component\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMgr.cpp">
+      <Filter>04. Manager\05. LevelMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ATexture.cpp">
+      <Filter>08. Asset\6. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="AMaterial.cpp">
+      <Filter>08. Asset\3. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ASprite.cpp">
+      <Filter>08. Asset\9. Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetMgr_Init.cpp">
+      <Filter>04. Manager\04. AssetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteRender.cpp">
+      <Filter>07. Component\RenderComponent\02. SpriteRender</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>04. Manager\07. RenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskMgr.cpp">
+      <Filter>04. Manager\08. TaskMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider2D.cpp">
+      <Filter>07. Component\03. Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>04. Manager\06. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AFlipbook.cpp">
+      <Filter>08. Asset\10. Flipbook</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlipbookRender.cpp">
+      <Filter>07. Component\RenderComponent\03. FlipbookRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileRender.cpp">
+      <Filter>07. Component\RenderComponent\04. TileRender</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredBuffer.cpp">
+      <Filter>03. Device\StructuredBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="AComputeShader.cpp">
+      <Filter>08. Asset\5. ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleRender.cpp">
+      <Filter>07. Component\RenderComponent\05. ParticleRender</Filter>
+    </ClCompile>
+    <ClCompile Include="ASetColorCS.cpp">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\SetColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AParticleTickCS.cpp">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight2D.cpp">
+      <Filter>07. Component\04. Light2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ASound.cpp">
+      <Filter>08. Asset\8. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="APrefab.cpp">
+      <Filter>08. Asset\7. Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="FontMgr.cpp">
+      <Filter>04. Manager\09. FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight3D.cpp">
+      <Filter>07. Component\05. Light3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkyBox.cpp">
+      <Filter>07. Component\RenderComponent\06. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>07. Component\02. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MRT.cpp">
+      <Filter>04. Manager\07. RenderMgr\MRT</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr_Init.cpp">
+      <Filter>04. Manager\07. RenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CDecal.cpp">
+      <Filter>07. Component\RenderComponent\07. Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="CLandScape.cpp">
+      <Filter>07. Component\RenderComponent\08. LandScape</Filter>
+    </ClCompile>
+    <ClCompile Include="ARayCastCS.cpp">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\RayCast</Filter>
+    </ClCompile>
+    <ClCompile Include="AHeightMapCS.cpp">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\HeightMap</Filter>
+    </ClCompile>
+    <ClCompile Include="AMeshData.cpp">
+      <Filter>08. Asset\2. MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>04. Manager\04. AssetMgr\FBXLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator3D.cpp">
+      <Filter>07. Component\06. Animator3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ABoneMatrixCS.cpp">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Animation3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EngineDefault">
+      <UniqueIdentifier>{6996e4b8-52aa-4e4c-9aac-734c76be2641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine">
+      <UniqueIdentifier>{583531f0-ae75-4a13-a3f3-3255f51904c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager">
+      <UniqueIdentifier>{91df006f-008a-423f-a8a0-4c2a5ba116ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\01. PathMgr">
+      <UniqueIdentifier>{293cbf86-cf72-4c64-a677-da9d69e6b108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\02. TimeMgr">
+      <UniqueIdentifier>{6807ba50-734b-4e05-83cf-086d9aefbe99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\03. KeyMgr">
+      <UniqueIdentifier>{71835b0c-0e45-44bc-a492-4199c9208c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Level">
+      <UniqueIdentifier>{4f98347a-9924-42c2-96f9-1787f9753cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject">
+      <UniqueIdentifier>{41d05c5f-ffad-49c8-b256-44d5eacad638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component">
+      <UniqueIdentifier>{f042180b-7df5-4984-8f06-c413ce0fa926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\01. Transform">
+      <UniqueIdentifier>{68ea1dce-f0a6-4688-a4de-034656fefa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset">
+      <UniqueIdentifier>{51395882-8c83-4723-a0ff-ee4d1cb093ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\1. Mesh">
+      <UniqueIdentifier>{7732864c-e20f-4f6b-9612-4b7c2eba1379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\2. MeshData">
+      <UniqueIdentifier>{558131bd-1570-4748-bd09-ac67e095197d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\3. Material">
+      <UniqueIdentifier>{96ed2e6b-0cc5-40e0-a0ea-9089be44cae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29">
+      <UniqueIdentifier>{887efac5-1097-436b-8ba6-730ff4f4b597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\04. AssetMgr">
+      <UniqueIdentifier>{5c1eb4df-12c2-40b7-a7ee-ab0ee8ee360b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Level\Layer">
+      <UniqueIdentifier>{b9513b58-0a05-42f1-9ee2-602767b0a37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent">
+      <UniqueIdentifier>{bf6fa2b3-07e6-42e5-b931-d6842db25d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\01. MeshRender">
+      <UniqueIdentifier>{11409170-9237-4270-9426-e52d221a3c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\02. Camera">
+      <UniqueIdentifier>{c579e3a4-7395-4b7e-9973-8b41494207ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\Script">
+      <UniqueIdentifier>{264b47f0-0441-405c-bf4a-474a2126b45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\03. Collider2D">
+      <UniqueIdentifier>{542cbd67-28ec-4536-97ab-98dcba8a6c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\05. LevelMgr">
+      <UniqueIdentifier>{4ecb34a8-d439-41d2-b574-3335cd575c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\06. CollisionMgr">
+      <UniqueIdentifier>{bf0d9cca-6582-473d-88cb-fc6378f49155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\02. SpriteRender">
+      <UniqueIdentifier>{493a6858-5f50-4268-86ea-f0e749ed0823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\1. Header">
+      <UniqueIdentifier>{b33c009f-9349-492c-b47d-20ac48c30654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\2. Render">
+      <UniqueIdentifier>{7851c940-64b4-4ff1-8266-4807a0936f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\07. RenderMgr">
+      <UniqueIdentifier>{60986a93-682e-458d-acba-5a46df73e952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\08. TaskMgr">
+      <UniqueIdentifier>{fb9b036f-c5c7-4a69-9a39-eebcdb6311f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Header">
+      <UniqueIdentifier>{bbf013a1-892b-4532-a597-09732cc64f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\03. FlipbookRender">
+      <UniqueIdentifier>{5e5421ea-6115-4738-816d-f5054ea39654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\04. TileRender">
+      <UniqueIdentifier>{4adc6c5b-4bf8-4d5f-ad80-c58b009aefc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\2. Render\2D">
+      <UniqueIdentifier>{abddcb67-ac3b-491c-976f-35f5d092e472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\4. GraphicShader">
+      <UniqueIdentifier>{363dcfba-43a4-4be2-9b57-e82c0c0b369f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\6. Texture">
+      <UniqueIdentifier>{a5d513b1-49bd-414f-a13d-02a1d7bd833d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\7. Prefab">
+      <UniqueIdentifier>{888b0d66-c8ea-44ac-a9d0-d7e00bc27b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\8. Sound">
+      <UniqueIdentifier>{2dd99777-f1be-4cc0-bdd5-573b9a034a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\9. Sprite">
+      <UniqueIdentifier>{93c179e9-9e4a-4a51-af46-666cfd133d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\5. ComputeShader">
+      <UniqueIdentifier>{f66b3c14-854a-4e04-b1f6-cf2acc25a096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset\10. Flipbook">
+      <UniqueIdentifier>{d75d2219-9be6-4d4c-b9f1-bc7c8b91e82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute">
+      <UniqueIdentifier>{c8570c3b-5434-478e-af53-34b14bb4f1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\05. ParticleRender">
+      <UniqueIdentifier>{9ad0c897-7cfe-438b-ace3-dc9b0d4e280a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\SetColor">
+      <UniqueIdentifier>{e36dde14-1e84-442c-85cb-fab798159287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\Particle">
+      <UniqueIdentifier>{10687d78-7bfe-48fe-849e-c1e84a38af07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Device">
+      <UniqueIdentifier>{6f1d7f9e-ed54-487c-b586-ae5b609a6192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Device\ConstBuffer">
+      <UniqueIdentifier>{72a013ea-23c5-4d92-bf26-5e7287f227a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Device\StructuredBuffer">
+      <UniqueIdentifier>{ee1ef594-e3fd-428b-b286-c5d92a7ea0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\04. Light2D">
+      <UniqueIdentifier>{a7324634-e9e2-4b58-940d-0ac22606b1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\09. FontMgr">
+      <UniqueIdentifier>{73e76df6-0eab-4d48-ac73-72d4e98e6547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\2. Render\3D">
+      <UniqueIdentifier>{2eab6dee-f809-42e3-99ff-a1ba5ca0b738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\05. Light3D">
+      <UniqueIdentifier>{3762e447-2728-4c04-a56c-10124e9f164f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\06. SkyBox">
+      <UniqueIdentifier>{736c50b8-3e0f-490e-9a39-407dc673feae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\07. RenderMgr\MRT">
+      <UniqueIdentifier>{1f317637-4aea-4ef9-b5f8-8c09a4561265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\07. Decal">
+      <UniqueIdentifier>{36793f5d-bfcb-4854-b51a-784fdca62a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\2. Render\Debug">
+      <UniqueIdentifier>{6039002d-6545-4cac-8011-891851d1d4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\RenderComponent\08. LandScape">
+      <UniqueIdentifier>{f5042a76-0fdc-413c-b82d-3fd567ce9a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\LandScape">
+      <UniqueIdentifier>{017f1c08-db92-4bd6-ae4c-ba1d682d6206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\LandScape\HeightMap">
+      <UniqueIdentifier>{322b1daa-cc63-49ff-b684-948809b4618d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\LandScape\RayCast">
+      <UniqueIdentifier>{28e10591-37da-4a72-b55e-52b3bd022aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\04. AssetMgr\FBXLoader">
+      <UniqueIdentifier>{2a454e9f-4dbc-443e-a342-9fc005d7cdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\06. Animator3D">
+      <UniqueIdentifier>{10a3f153-a626-4b36-bd3d-1c7722e8d1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL%28High Level Shader Language%29\3. Compute\Animation3D">
+      <UniqueIdentifier>{d240c341-24bf-455a-bca8-505f17604372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>01. Header</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="value.fx">
+      <Filter>HLSL%28High Level Shader Language%29\1. Header</Filter>
+    </FxCompile>
+    <FxCompile Include="debug.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="flipbook.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="sprite.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="std2d.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="tile.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="particle.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="struct.fx">
+      <Filter>HLSL%28High Level Shader Language%29\1. Header</Filter>
+    </FxCompile>
+    <FxCompile Include="test.fx">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\SetColor</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_tick.fx">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="postprocess.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="func.fx">
+      <Filter>HLSL%28High Level Shader Language%29\1. Header</Filter>
+    </FxCompile>
+    <FxCompile Include="std3d.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="std3d_deferred.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="light.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="merge.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="volumemesh.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render</Filter>
+    </FxCompile>
+    <FxCompile Include="decal.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="shadowmap.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="TessTest.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="landscape.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="raycast.fx">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\RayCast</Filter>
+    </FxCompile>
+    <FxCompile Include="heightmap.fx">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\LandScape\HeightMap</Filter>
+    </FxCompile>
+    <FxCompile Include="bonemat.fx">
+      <Filter>HLSL%28High Level Shader Language%29\3. Compute\Animation3D</Filter>
+    </FxCompile>
+    <FxCompile Include="ShadowCubeMap.fx">
+      <Filter>HLSL%28High Level Shader Language%29\2. Render\3D</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

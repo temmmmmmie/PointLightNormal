@@ -1,0 +1,29 @@
+1. Engine 내부에 Test 코드들 제거 및 분리
+  - LevelMgr::Init
+  - 컨텐츠용 Script 들
+
+
+2. Script 관련 유지보수
+  - 새로운 Script 가 추가되거나, 기존에 있던 Script 가 삭제된 경우, 
+     Level Save / Load 등 여러 부분에 코드의 변경점이 따라온다.
+  - 자동화 처리
+
+3. Level Save / Load 구현
+ - Level 을 저장하고 불러오기
+ - 
+
+4. Sound Asset
+ - FMOD
+
+
+5. FontLibrary 추가
+
+
+6. ContentUI 개선
+  - 리소스 자동 로딩, Content 폴더에 있는 에셋들을 프로그램 시작시 자동으로 메모리에 로딩하기
+
+
+
+
+
+
